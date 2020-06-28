@@ -10,6 +10,7 @@ body {
     margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.4);
     letter-spacing: 10px;
+    text-transform : uppercase;
 }
 footer {
     font-size: 15px;
