@@ -1,0 +1,110 @@
+body {
+    background-color: darkgray;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.tag {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 10px;
+}
+footer {
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 5px;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+.calculator {
+    padding: 12px;
+    user-select: none;
+    width : 500px;
+    margin: 50px auto;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+.screen {
+    width: 98.5%;
+    height : 150px;
+    text-align: right;
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
+    color: orange;
+    background-color: black;
+    letter-spacing: 2.8px;
+    font-family: 'Orbitron';
+    outline: none;
+}
+.screen:focus {
+    outline: none;
+}
+.key {
+    width : 7%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    background-color : rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    font-size: 28px;
+}
+.equal {
+    background-color: orange;
+    color: white;
+} 
+.clear , .back {
+    color : orange
+}
+@media only screen and (max-width : 510px)  and (min-width : 385px){
+    .calculator {
+        width: 95%;
+        margin-left: 0px;
+    }
+    .screen {
+        height: 130px;
+        font-size: 1.5rem;
+    }
+    .key {
+        width: 6%;
+        font-size: 0.8rem;
+        padding: 20px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .tag {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width : 384px) {
+    .calculator {
+        width: 95%;
+        padding: 0px;
+    }
+    .screen {
+        width: 95%;
+        height: 80px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .key {
+        width: 2%;
+        font-size: 0.5rem;
+        padding: 20px;
+        border-radius: 50%;
+        margin: 9px;
+    }
+    .tag {
+        font-size: 1.3rem;
+    }
+}
