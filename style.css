@@ -75,6 +75,9 @@ footer {
     cursor: pointer;
     font-size: 28px;
 }
+.back {
+    font-size : 38rem;
+}
 .equal {
     background-color: orange;
     color: white;
@@ -101,6 +104,9 @@ footer {
     .tag {
         font-size: 1.5rem;
     }
+    .back {
+    font-size : 2rem;
+    }
 }
 @media only screen and (max-width : 384px) {
     .calculator {
@@ -120,6 +126,9 @@ footer {
         padding: 20px;
         border-radius: 50%;
         margin: 9px;
+    }
+    .back {
+    font-size : 2rem;
     }
     .tag {
         font-size: 1.3rem;
