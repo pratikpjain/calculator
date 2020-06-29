@@ -78,7 +78,7 @@ function equalfun() {
     }
     if (x != '' && x != 'Math Error' && x != 'Syntax Error') {
         try {
-            if (eval(x) === Infinity) {
+            if (isNaN(eval(x)) || eval(x) === Infinity) {
                 document.querySelector('.screen').value = 'Math Error';
             }
             else {
